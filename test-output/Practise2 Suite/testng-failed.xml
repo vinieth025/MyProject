@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Practise2 Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression Test(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="org.testng.TestNgPractise2">
+        <methods>
+          <include name="tc00"/>
+          <include name="tc01"/>
+          <include name="tc06"/>
+          <include name="tc02"/>
+          <include name="tc03"/>
+        </methods>
+      </class> <!-- org.testng.TestNgPractise2 -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Practise2 Suite] -->

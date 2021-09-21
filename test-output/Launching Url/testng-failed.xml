@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Launching Url]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Parameter Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.testng.Parameters">
+        <methods>
+          <include name="launch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.testng.Parameters -->
+    </classes>
+  </test> <!-- Parameter Test(failed) -->
+</suite> <!-- Failed suite [Launching Url] -->
